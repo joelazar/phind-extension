@@ -12,7 +12,7 @@
     "search_provider": {
       "name": "Phind",
       "search_url": "https://phind.com/search?q={searchTerms}",
-      "keyword": "p",
+      "keyword": "!p, @phind",
       "favicon_url": "https://phind.com/images/favicon.png",
       "is_default": true,
       "encoding": "UTF-8"
