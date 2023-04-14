@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "phind search engine",
-  "description": "Adds a search engine that searches phind.com",
+  "name": "Phind Search Engine",
+  "description": "Adds phind.com as search engine.",
   "version": "1.0",
   "icons": {
     "16": "icon-16.png",
@@ -10,11 +10,11 @@
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "phind.com",
+      "name": "Phind",
       "search_url": "https://phind.com/search?q={searchTerms}",
       "keyword": "p",
       "favicon_url": "https://phind.com/images/favicon.png",
-      "is_default": false,
+      "is_default": true,
       "encoding": "UTF-8"
     }
   }
